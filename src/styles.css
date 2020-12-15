@@ -237,6 +237,15 @@ label {
   margin-bottom: 5%;
 }
 
+.dd-res-work-cont .card-sub-title {
+  color: #444444;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
 /* Resume page css ends */
 
 /* Blog page css starts */
