@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AppLayoutService } from 'src/app/app-layout/app-layout.service';
 
 @Component({
   selector: 'app-blog',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BlogComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private _appLayoutService: AppLayoutService
+  ) { }
 
   ngOnInit() {
+
+    let data = new Object();
+    data['title'] = 'Keep Reading';
+    data['text'] = 'because it helps.';
+
+    this._appLayoutService.emitTitleData(data);
   }
 
+  ngOnDestroy(): void {
+    this._appLayoutService.unsubscribeTitleData();
+  }
 }

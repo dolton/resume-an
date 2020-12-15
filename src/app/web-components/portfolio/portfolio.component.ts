@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AppLayoutService } from 'src/app/app-layout/app-layout.service';
 
 @Component({
   selector: 'app-portfolio',
@@ -7,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private _appLayoutService: AppLayoutService
+  ) { }
 
   ngOnInit() {
+    
+    let data = new Object();
+    data['title'] = 'See what I do';
+    data['text'] = 'while developing';
+
+    this._appLayoutService.emitTitleData(data);
+  }
+
+  ngOnDestroy(): void {
+    this._appLayoutService.unsubscribeTitleData();
   }
 
 }

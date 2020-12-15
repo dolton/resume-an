@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AppLayoutService } from '../app-layout.service';
 
 @Component({
   selector: 'app-app-body',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppBodyComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private _appLayoutService: AppLayoutService
+  ) { }
+
+  data: Object = {};
 
   ngOnInit() {
-  }
 
+    this._appLayoutService._pageTitleData$.subscribe(data => {
+      this.data = data;
+    });
+  }
 }
