@@ -1,1 +1,420 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0em;
+  line-height: 1.8em;
+  color: rgba(26,26,26,0.80);
+}
+
+p {
+  line-height: 2;
+  text-align: justify;
+}
+
+.btn {
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin-top: 10%;
+  padding: 15px 30px;
+  text-transform: uppercase;
+}
+
+label {
+  color: #1a1a1a;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: .1em;
+  line-height: 1.6em;
+  text-transform: uppercase;
+}
+
+/* Top container css starts*/
+#title {
+  background: url("../src/assets/images/blur-bulb.jpg") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #000000;
+  color: #FFF;
+  height: 40rem;
+}
+
+.container-fluid {
+  padding: 2% 4%;
+}
+
+.navbar {
+  padding-right: 10%;
+}
+
+.navbar li {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  margin: 0 1%;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+} 
+
+.nav-link {
+  font-size: 0.9rem;
+  font-family:'Montserrat-Light', sans-serif;
+}
+
+.dd-titlesec-desc-cont {
+  display: block;
+  float: right;
+  margin: 10rem 5rem 0;
+}
+
+.dd-titlesec-desc-myname {
+  font-family: 'Great Vibes', cursive;
+  font-size: 5.625rem;
+}
+
+.dd-titlesec-desc-myrole {
+  letter-spacing: 3px;
+}
+
+@media(max-width:1028px){
+
+  .dd-titlesec-desc-cont {
+    margin: 7rem 4rem 0;
+  }
+
+  .dd-titlesec-desc-myname {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+  }
+
+  .dd-titlesec-desc-myrole {
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
+
+  .btn {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 5%;
+    padding: 10px 20px;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+  
+/* Top container css ends */
+
+/* Self information section css starts */
+.dd-even-section {
+  background-color: #EDEEEF;
+  padding: 5rem 0;
+}
+
+.dd-home-self-mc-profile {
+  margin: auto;
+  width: 60%;
+  text-align: center;
+}
+
+.dd-home-self-mc-profile-img {
+  margin-bottom: 5%;
+  width: 15%;
+}
+
+.dd-home-self-mc-profile p{
+  margin-top: 3%;
+  text-align: center;
+}
+
+/* Self information section css ends */
+
+/* Skill section css starts */
+
+.dd-home-infosec-icon {
+  font-size: 4rem;
+}
+
+.dd-home-skillsec-icon {
+  font-size: 3rem;
+  margin-top: 50%;
+}
+
+.dd-home-skill-cont .row {
+  margin: 2% 0;
+}
+
+.dd-web-card-noborder {
+  border: none;
+}
+
+@media(max-width:1028px){
+  .dd-home-skillsec-icon {
+    margin-top: 10%;
+  }
+}
+
+/* Skill section css ends */
+
+/* Contact me section css starts */
+
+.dd-home-cm-hd {
+  margin-bottom: 2%;
+}
+
+.dd-home-cm-req {
+  margin-bottom: 2%;
+}
+
+.dd-home-cm-req-desc {
+  margin: auto;
+  text-align: center;
+  width: 70%;
+}
+
+.dd-home-cm-btn {
+  margin: 3% 0;
+}
+
+/* Contact me section css ends */
+
+/* Footer section css starts */
+
+#footer {
+  background-color: #26262A;
+  color: #FFF;
+  padding: 5% 40%;
+}
+
+.dd-home-ft-cont {
+  margin: auto;
+}
+
+.dd-home-ft-icon-cont .fab {
+  color: #FFF;
+  font-size: 1.5rem;
+  margin: 5% 2%;
+}
+
+.dd-home-ft-icon-cont .fab:hover{
+  color: #007bff;
+}
+
+.dd-home-ft-cont label {
+  color: #FFF;
+}
+
+@media(max-width:1028px){
+
+  #footer {
+    padding: 5% 25%;
+  }
+
+  .dd-home-ft-icon-cont .fab {
+    font-size: 1.2rem;
+  }
+}
+
+/* Footer section css ends */
+
+/* Resume page css starts */
+
+.container-fluid .row {
+  text-align: left;
+}
+
+.dd-res-work-card-data {
+  font-size: 14px;
+}
+
+.dd-res-work-card-bd-data-row {
+  margin-bottom: 5%;
+}
+
+/* Resume page css ends */
+
+/* Blog page css starts */
+
+.dd-blog-quote-icon {
+  font-size: 3rem;
+  margin-bottom: 5%;
+}
+
+.dd-blog-tiles-cont {
+  padding: 5%;
+}
+
+.dd-blog-tiles-cont .card {
+  margin-bottom: 8%;
+}
+
+.dd-blog-tiles-img {
+  -webkit-filter: grayscale(50%);
+  filter: grayscale(50%);
+  height: 15rem;
+}
+
+.dd-blog-tiles-img-01 {
+  background: url("../src/assets/images/blog/business-chart.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-blog-tiles-img-02 {
+  background: url("../src/assets/images/blog/ballpen.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-blog-tiles-img-03 {
+  background: url("../src/assets/images/blog/road.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-blog-tiles-img-04 {
+  background: url("../src/assets/images/blog/writing.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-blog-tiles-img-05 {
+  background: url("../src/assets/images/blog/earth.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-blog-tiles-img-06 {
+  background: url("../src/assets/images/blog/reading.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* Blog page css ends */
+
+/* About me page css starts */
+
+.dd-about-me-cont {
+  padding-top: 3%;
+}
+
+.dd-about-me-card-body-text {
+  padding-top: 0;
+}
+
+.dd-aboutme-tiles-img-traveller {
+  background: url("../src/assets/images/about/traveller.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-aboutme-tiles-img-phil {
+  background: url("../src/assets/images/about/phil.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-aboutme-tiles-img-sw {
+  background: url("../src/assets/images/about/socialwork.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-aboutme-tiles-img-st {
+  background: url("../src/assets/images/about/finance.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-aboutme-tiles-img-ath {
+  background: url("../src/assets/images/about/athlete.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-aboutme-tiles-img-mn {
+  background: url("../src/assets/images/about/trekking.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-aboutme-tiles-img-al {
+  background: url("../src/assets/images/about/animal.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-aboutme-tiles-img-ms {
+  background: url("../src/assets/images/about/piano.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* About me page css ends */
+
+/* Contact me page css starts */
+
+.dd-contactme-tiles-cont {
+  padding: 5%;
+}
+
+.dd-contactme-card-icon{
+  font-size: 3rem;
+  margin-top: 8%;
+}
+
+.dd-contactme-connect-cont .fas {
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+
+.dd-contactme-connect-title {
+  display: block;
+  font-size: 20px;
+}
+
+.dd-contactme-connect-cont .row {
+  margin: 3% 0;
+}
+
+/* Contact me page css ends */
+
+/* Portfolio page css starts */
+
+.dd-port-infosec-icon {
+  font-size: 150%;
+}
+
+.dd-port-prjview-btn {
+  display: none;
+  margin-top: 25%;
+}
+
+.dd-web-first-cont {
+  margin-top: 3%;
+}
+
+.dd-port-cont .btn-outline-dark {
+  margin: 0;
+}
+
+.dd-port-tiles-img-sk {
+  background: url("../src/assets/images/portfolio/sk-img.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-port-tiles-img-perf {
+  background: url("../src/assets/images/portfolio/perf.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-port-tiles-img-infra {
+  background: url("../src/assets/images/portfolio/server.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-port-tiles-img-code {
+  background: url("../src/assets/images/portfolio/code.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-port-cont .dd-blog-tiles-img:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.dd-port-cont .dd-blog-tiles-img:hover .dd-port-prjview-btn {
+  display: inline-block;
+}

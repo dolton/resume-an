@@ -1,0 +1,33 @@
+#footer {
+  background-color: #26262a;
+  color: #fff;
+  padding: 5% 40%;
+}
+
+.dd-home-ft-cont {
+  margin: auto;
+}
+
+.dd-home-ft-icon-cont .fab {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 5% 2%;
+}
+
+.dd-home-ft-icon-cont .fab:hover {
+  color: #007bff;
+}
+
+.dd-home-ft-cont label {
+  color: #fff;
+}
+
+@media (max-width: 1028px) {
+  #footer {
+    padding: 5% 25%;
+  }
+
+  .dd-home-ft-icon-cont .fab {
+    font-size: 1.2rem;
+  }
+}

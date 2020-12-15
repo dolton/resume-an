@@ -1,0 +1,30 @@
+.dd-titlesec-desc-cont {
+  display: block;
+  float: right;
+  margin: 10rem 5rem 0;
+}
+
+.dd-titlesec-desc-myname {
+  font-family: "Great Vibes", cursive;
+  font-size: 5.625rem;
+}
+
+.dd-titlesec-desc-myrole {
+  letter-spacing: 3px;
+}
+
+@media (max-width: 1028px) {
+  .dd-titlesec-desc-cont {
+    margin: 7rem 4rem 0;
+  }
+
+  .dd-titlesec-desc-myname {
+    font-family: "Great Vibes", cursive;
+    font-size: 3rem;
+  }
+
+  .dd-titlesec-desc-myrole {
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
+}
