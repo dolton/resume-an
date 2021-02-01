@@ -399,8 +399,8 @@ label {
   margin: 0;
 }
 
-.dd-port-tiles-img-sk {
-  background: url("../src/assets/images/portfolio/sk-img.jpg") no-repeat;
+.dd-port-tiles-img-desk {
+  background: url("../src/assets/images/portfolio/laptop-desk.jpg") no-repeat;
   background-size: cover;
 }
 
