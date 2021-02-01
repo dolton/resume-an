@@ -16,7 +16,7 @@ export class ContactUsComponent implements OnInit {
 
     let data = new Object();
     data['title'] = 'Fancy saying hi';
-    data['text'] = 'jsut go ahead and connect.';
+    data['text'] = 'just go ahead and connect.';
 
     this._appLayoutService.emitTitleData(data);
   }

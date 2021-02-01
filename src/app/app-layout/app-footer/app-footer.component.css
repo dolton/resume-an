@@ -22,6 +22,10 @@
   color: #fff;
 }
 
+.dd-home-ft-icon-cp {
+  margin-right: 5px;
+}
+
 @media (max-width: 1028px) {
   #footer {
     padding: 5% 25%;
