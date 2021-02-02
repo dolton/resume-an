@@ -1,15 +1,31 @@
 body {
   margin: 0;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 0em;
   line-height: 1.8em;
-  color: rgba(26,26,26,0.80);
+  color: rgba(26, 26, 26, 0.8);
+  overflow-x: hidden;
 }
 
 p {
   line-height: 2;
   text-align: justify;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #aaaaaa;
+  border-radius: 25px;
 }
 
 .btn {
@@ -26,7 +42,7 @@ label {
   color: #1a1a1a;
   font-weight: 600;
   font-size: 14px;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   line-height: 1.6em;
   text-transform: uppercase;
 }
@@ -39,7 +55,7 @@ label {
   -o-background-size: cover;
   background-size: cover;
   background-color: #000000;
-  color: #FFF;
+  color: #fff;
   height: 100vh;
 }
 
@@ -59,11 +75,11 @@ label {
 
 .navbar-brand {
   font-size: 3rem;
-} 
+}
 
 .nav-link {
   font-size: 0.9rem;
-  font-family:'Montserrat-Light', sans-serif;
+  font-family: "Montserrat-Light", sans-serif;
 }
 
 .dd-titlesec-desc-cont {
@@ -73,7 +89,7 @@ label {
 }
 
 .dd-titlesec-desc-myname {
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
   font-size: 5.625rem;
 }
 
@@ -81,14 +97,13 @@ label {
   letter-spacing: 3px;
 }
 
-@media(max-width:1028px){
-
+@media (max-width: 1028px) {
   .dd-titlesec-desc-cont {
     margin: 7rem 4rem 0;
   }
 
   .dd-titlesec-desc-myname {
-    font-family: 'Great Vibes', cursive;
+    font-family: "Great Vibes", cursive;
     font-size: 3rem;
   }
 
@@ -108,12 +123,12 @@ label {
     font-size: 1.8rem;
   }
 }
-  
+
 /* Top container css ends */
 
 /* Self information section css starts */
 .dd-even-section {
-  background-color: #EDEEEF;
+  background-color: #edeeef;
   padding: 5rem 0;
 }
 
@@ -128,7 +143,7 @@ label {
   width: 15%;
 }
 
-.dd-home-self-mc-profile p{
+.dd-home-self-mc-profile p {
   margin-top: 3%;
   text-align: center;
 }
@@ -154,7 +169,7 @@ label {
   border: none;
 }
 
-@media(max-width:1028px){
+@media (max-width: 1028px) {
   .dd-home-skillsec-icon {
     margin-top: 10%;
   }
@@ -187,8 +202,8 @@ label {
 /* Footer section css starts */
 
 #footer {
-  background-color: #26262A;
-  color: #FFF;
+  background-color: #26262a;
+  color: #fff;
   padding: 5% 40%;
 }
 
@@ -197,21 +212,20 @@ label {
 }
 
 .dd-home-ft-icon-cont .fab {
-  color: #FFF;
+  color: #fff;
   font-size: 1.5rem;
   margin: 5% 2%;
 }
 
-.dd-home-ft-icon-cont .fab:hover{
+.dd-home-ft-icon-cont .fab:hover {
   color: #007bff;
 }
 
 .dd-home-ft-cont label {
-  color: #FFF;
+  color: #fff;
 }
 
-@media(max-width:1028px){
-
+@media (max-width: 1028px) {
   #footer {
     padding: 5% 25%;
   }
@@ -242,7 +256,7 @@ label {
   margin-bottom: 0.5rem;
   font-weight: 600;
   font-size: 12px;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
@@ -359,7 +373,7 @@ label {
   padding: 5%;
 }
 
-.dd-contactme-card-icon{
+.dd-contactme-card-icon {
   font-size: 3rem;
   margin-top: 8%;
 }

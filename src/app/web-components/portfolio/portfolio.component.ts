@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AppLayoutService } from 'src/app/app-layout/app-layout.service';
+import AOS from 'aos';
 
 @Component({
   selector: 'app-portfolio',
@@ -19,6 +20,8 @@ export class PortfolioComponent implements OnInit {
     data['text'] = 'while developing';
 
     this._appLayoutService.emitTitleData(data);
+
+    AOS.init();
   }
 
   ngOnDestroy(): void {

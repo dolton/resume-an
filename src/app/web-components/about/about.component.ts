@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AppLayoutService } from 'src/app/app-layout/app-layout.service';
+import AOS from 'aos';
 
 @Component({
   selector: 'app-about',
@@ -19,6 +20,8 @@ export class AboutComponent implements OnInit {
     data['text'] = 'besides being a developer.';
 
     this._appLayoutService.emitTitleData(data);
+
+    AOS.init();
   }
 
   ngOnDestroy(): void {
