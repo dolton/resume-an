@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AppLayoutService } from '../app-layout.service';
+import AOS from 'aos';
 
 @Component({
   selector: 'app-app-body',
@@ -19,5 +20,7 @@ export class AppBodyComponent implements OnInit {
     this._appLayoutService._pageTitleData$.subscribe(data => {
       this.data = data;
     });
+
+    AOS.init();
   }
 }
